@@ -99,6 +99,7 @@ ingress:
     originRequest:
       connectTimeout: 10s
       disableChunkedEncoding: true
+  - service: http_status:404
 ```
 
 

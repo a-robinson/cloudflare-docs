@@ -26,6 +26,7 @@ ingress:
     originRequest:
       connectTimeout: 10s
       disableChunkedEncoding: true
+  - service: http_status:404
 ```
 
 You can [validate](/routing-to-tunnel/ingress#validating-your-configuration) and [test](/routing-to-tunnel/ingress#testing-your-configuration)
